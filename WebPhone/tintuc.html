@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tin tức - Trọng Tín Store</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/topnav.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/taikhoan.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/tintuc.css" />
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+      window.onload = function () {
+        khoiTao();
+        // thêm tags (từ khóa) vào khung tìm kiếm
+        var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+        for (var t of tags) addTags(t, "index.html?search=" + t);
+      };
+    </script>
+  </head>
+
+  <body>
+    <script>
+      addTopNav();
+    </script>
+
+    <section style="min-height: 85vh">
+      <script>
+        addHeader();
+      </script>
+
+      <div class="body-tintuc">
+        <div class="tintuc-info">
+          <a
+            href="https://www.thegioididong.com/tin-tuc/nhung-han-che-tren-cong-usb-type-c-iphone-15-series-1513524"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.tgdd.vn/Files/2023/03/01/1513524/yjyj6my66gy4nf29arsbcj-010323-115150-800-resize.jpg"
+            />
+            <h2>
+              Cổng USB Type-C trên dòng iPhone 15 sẽ có 'tính năng' rất đặc biệt
+            </h2>
+          </a>
+          <br />
+          <h5>Thegioididong &emsp;3 giờ</h5>
+        </div>
+        <div class="tintuc-info">
+          <a
+            href="https://www.thegioididong.com/tin-tuc/thang-cua-nang-ngap-tran-uu-dai-dong-ho-tao-giam-soc-1514304"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.tgdd.vn/Files/2023/03/02/1514304/apple-020323-115607-800-resize.jpg"
+            />
+            <h2>
+              Tháng của nàng - Ngập tràn ưu đãi: Đồng hồ 'Táo' giảm sốc đến 3.5
+              triệu
+            </h2>
+          </a>
+          <br />
+          <h5>Trongtin &emsp; 18 phút trước</h5>
+        </div>
+        <div class="tintuc-info">
+          <a
+            href="https://www.thegioididong.com/tin-tuc/chiu-choi-nhu-messi-mua-35-iphone-vang-cho-dong-doi-1514311"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.tgdd.vn/Files/2023/03/02/1514311/334551869_516330013914453_4950837103270389801_n-020323-133118-800-resize.jpg"
+            />
+            <h2>
+              Thánh soi công nghệ: Messi tặng iPhone bằng vàng trị giá tiền tỷ
+              cho đồng đội ở World Cup
+            </h2>
+          </a>
+          <br />
+          <h5>Trần Quang Huy&emsp; 45 phút trước</h5>
+        </div>
+        <div class="tintuc-info">
+          <a
+            href="https://www.thegioididong.com/tin-tuc/apple-tung-cap-nhat-bao-mat-cho-ios-164-beta-1514299"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.tgdd.vn/Files/2023/03/02/1514299/ios-16-4-beta-security-response-020323-120759-800-resize.jpg"
+            />
+            <h2>
+              Apple tung bản vá bảo mật khẩn cấp cho iOS 16.4 Beta, khuyên tất
+              cả nên cập nhật
+            </h2>
+          </a>
+          <br />
+          <h5>Trần Quang Huy &emsp; 13 giờ</h5>
+        </div>
+        <div class="tintuc-info" style="border-bottom: 0">
+          <a
+            href="https://www.thegioididong.com/tin-tuc/vivo-pad-2-lo-thong-tin-dung-chip-hang-dau-1514295"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.tgdd.vn/Files/2023/03/02/1514295/vivo-pad-020323-114736-800-resize.jpg"
+              height="148px"
+              width="224px;"
+            />
+            <h2>
+              Vivo Pad 2 lộ thông tin dùng chip hàng đầu, dự kiến cạnh tranh với
+              OPPO Pad 2
+            </h2>
+          </a>
+          <br />
+          <h5>Zing &emsp; 9 giờ</h5>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+      <script>
+        addFooter();
+      </script>
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+  </body>
+</html>

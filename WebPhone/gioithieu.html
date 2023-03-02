@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Giới thiệu - Trọng Tín Store</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/topnav.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/taikhoan.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/gioithieu.css" />
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+      window.onload = function () {
+        khoiTao();
+        // thêm tags (từ khóa) vào khung tìm kiếm
+        var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+        for (var t of tags) addTags(t, "index.html?search=" + t);
+      };
+    </script>
+  </head>
+
+  <body>
+    <script>
+      addTopNav();
+    </script>
+
+    <section style="min-height: 85vh">
+      <script>
+        addHeader();
+      </script>
+
+      <div class="page-gt">
+        <h4 class="page-header">Giới thiệu</h4>
+        <div class="page-info">
+          <p>
+            Chúng tôi là công ty hoạt động trong lĩnh vực bán lẻ các sản phẩm
+            công nghệ, cùng với dịch vụ sửa chữa điện thoại, máy tính và lĩnh
+            vực truyền thông giải trí. Vào 10/2022, Trọng Tín Store có 105 cửa
+            hàng tại 25 tỉnh thành, Điện Thoại Vui có 24 trung tâm tại 4 tình
+            thành phố, Điện Thoại Vui ASP trung tâm bảo hành uỷ quyền Apple có 6
+            trung tâm tại 4 tỉnh thành, SChannel NetWork - hệ thống kênh giải
+            trí cho giới trẻ hơn 10 triệu người theo dõi và 250 triệu lượt xem
+            mỗi tháng.
+          </p>
+          <br />
+          <p>
+            Trọng Tín Store là hệ thống cửa hàng rộng khắp với hơn 90 cửa hàng
+            phân bố rộng khắp toàn quốc hỗ trợ quá trình giao hàng toàn quốc
+            diễn ra nhanh chóng, phục vụ tận tình các đơn hàng từ lớn đến
+            nhỏ.<br />
+            Bên cạnh đó là đội ngũ nhân viên nhiệt tình chu đáo và đầy kinh
+            nghiệm của chúng tôi luôn đưa được ra cho khách hàng những thông tin
+            có giá trị và giúp khách hàng lựa chọn được những sản phẩm phù hợp
+            nhất.<br />
+            Để nâng cao thương hiệu của mình, mục tiêu của chúng tôi trong thời
+            gian tới là cung cấp đến tận tay khách hàng những sản phẩm chính
+            hãng với chất lượng đảm bảo và uy tín cũng như giá cả hợp lý
+            nhất.<br />
+            Với mọi thắc mắc, khách hàng luôn được giải đáp rõ ràng và chi tiết
+            bởi đội ngũ tư vấn chuyên nghiệp. Đặc biệt, Trọng Tín Store còn hỗ
+            trợ khách hàng lắp đặt miễn phí, đảm bảo thiết bị có thể hoạt động
+            một cách ổn định.<br />
+            Chúng tôi xin chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ
+            ủng hộ chúng tôi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+      <script>
+        addFooter();
+      </script>
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+  </body>
+</html>
