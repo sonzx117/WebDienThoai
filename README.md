@@ -1,4 +1,6 @@
 # WebDienThoai
+Link demo: https://trongtinstore.netlify.app
+
 Chức năng
 User: 
 + Đăng ký, Đăng nhập
